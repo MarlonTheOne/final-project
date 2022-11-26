@@ -20,10 +20,13 @@ cd final-project/
 
 *Ejemplo de descarga de Docker Compose:* [Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04)<br><br>
 ![2](images/dcompos.png)
+
+Ingresamos a la carpeta donde se encuentran los archivos de configuración
 ![3](images/2.png)
 ![4](images/3.png)
 ![5](images/4.png)
 ![6](images/5.png)
+
 ![7](images/6.png)
 ![8](images/7.png)
 ![9](images/8.png)
