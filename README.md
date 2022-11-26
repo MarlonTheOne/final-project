@@ -37,7 +37,7 @@ docker pull gitlab/gitlab-ee
 <br><br>
 Se define los parametros para desplegar los contenedores necesarios, en este caso, 2 servicios web y un balanceador de carga.
 <br><br>
-![26](images/ymlfile.png)
+![26](images/yml.png)
 <br><br>
 Dentro de la carpeta "docker-lb-web" ejecutar el docker compose
 ```bash
