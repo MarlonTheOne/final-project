@@ -71,10 +71,32 @@ docker inspect $(docker ps -q) | grep -i "ipaddress" | grep -vE "Name|Secondary"
 ```
 ![12](images/11.png)
 
-
+Ingresamos dentro de los contenedores *Ingresar en ambos contenedores web y ejecutar los mismos comandos*
+```bash
+docker exec -it web2 bash
+```
 ![13](images/12.png)
+
+Actualizamos los repositorios dentro de los contenedores
+```bash
+apt update
+```
 ![14](images/13.png)
+
+Instalamos GIT y Nano
+```bash
+apt install git nano -y
+```
 ![15](images/14.png)
+
+Ingresamos dentro de la carpeta "htdocs" y editamos el archivo "index.html"
+```bash
+cd htdocs
+ls
+nano index.html
+```
+<br><br>
+
 ![16](images/15.png)
 ![17](images/16.png)
 ![18](images/17.png)
