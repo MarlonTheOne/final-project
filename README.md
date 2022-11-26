@@ -25,12 +25,30 @@ Ingresamos a la carpeta donde se encuentran los archivos de configuración
 ![3](images/2.png)
 ![4](images/3.png)
 ![5](images/4.png)
-![6](images/5.png)
 
+Descargar las imagenes para los servicios WEB y el servidor de GitLab
+
+```bash
+docker pull httpd
+docker pull gitlab/gitlab-ee
+```
+![6](images/5.png)
 ![7](images/6.png)
+
+Dentro de la carpeta "docker-lb-web" ejecutar el docker compose
+```bash
+docker compose up --build
+```
 ![8](images/7.png)
 ![9](images/8.png)
+
+Revisamos que se haya creado el adaptador de red (Ese adaptador se va a adjuntar al contenedor de GitLab)
+```bash
+docker network ls
+```
 ![10](images/9.png)
+
+
 ![11](images/10.png)
 ![12](images/11.png)
 ![13](images/12.png)
