@@ -114,13 +114,15 @@ sudo docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
 ```
 ![21](images/19.png)
 
-
+Seleccionamos "New project"
 ![22](images/gitsrv2.png)
-![23](images/20.png)
-![24](images/21.png)
-![25](images/22.png)
+
+Seleccionamos "Create blank project"
 ![14](images/gitsrv3.png)
+
+Agregamos un nombre y seleccionamos el nivel de visibilidad "Public"
 ![15](images/gitsrv4.png)
-![16](images/gitsrv5.png)
+
+Copiamos la dirección para clonar el repositorio
 ![17](images/gitsrv6.png)
 ![16](images/gitsrv7.png)
