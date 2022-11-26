@@ -6,7 +6,7 @@
 - Docker 20.10.21
 - Docker Compose
 
-
+<br><br>
 
 Se clona el repositorio e ingresamos a la carpeta "final-project"
 
