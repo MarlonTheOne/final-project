@@ -1,9 +1,24 @@
 # final-project
-The final project for AIDI
+
+### Elementos usados:
+- 1 Maquina virtual
+- Ubuntu Server 22.04
+- Docker 20.10.21
+- Docker Compose
+
+
+
+Se clona el repositorio e ingresamos a la carpeta "final-project"
+
 ```bash
-sudo apt install git
+git clone https://github.com/MarlonTheOne/final-project.git
+ls -l
+cd final-project/
 ```
 ![1](images/1.png)
+
+
+*Ejemplo de descarga de Docker Compose:* [Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04)<br><br>
 ![2](images/dcompos.png)
 ![3](images/2.png)
 ![4](images/3.png)
