@@ -142,3 +142,6 @@ git push
 Validamos que el archivo se encuentre en el repositorio.
 <br><br>
 ![16](images/gitsrv7.png)
+
+![17](images/LB1.png)
+![17](images/LB2.png)
