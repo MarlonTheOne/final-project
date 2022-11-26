@@ -76,6 +76,7 @@ Ingresamos dentro de los contenedores *Ingresar en ambos contenedores web y ejec
 docker exec -it web2 bash
 ```
 ![13](images/12.png)
+![19](images/18.png)
 
 Actualizamos los repositorios dentro de los contenedores
 ```bash
@@ -95,14 +96,25 @@ cd htdocs
 ls
 nano index.html
 ```
-<br><br>
-
 ![16](images/15.png)
 ![17](images/16.png)
 ![18](images/17.png)
-![19](images/18.png)
+
+<br><br>
+
+Link para ingresar a GitLab
+```bash
+http://IP:PORT/users/sign_in
+```
 ![20](images/gitsrv1.png)
+
+El usuario en GitLab es "root" y la contraseña la obtenemos con el siguiente comando:
+```bash
+sudo docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
+```
 ![21](images/19.png)
+
+
 ![22](images/gitsrv2.png)
 ![23](images/20.png)
 ![24](images/21.png)
