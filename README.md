@@ -125,4 +125,19 @@ Agregamos un nombre y seleccionamos el nivel de visibilidad "Public"
 
 Copiamos la dirección para clonar el repositorio
 ![17](images/gitsrv6.png)
+
+Creamos un archivo el cual subiremos como prueba el repositorio.
+![16](images/20.png)
+
+Inicializamos Git y publicamos a el repositorio que creamos en GitLab
+```bash
+git add .
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git commit -m "Primer commit"
+git push
+```
+![16](images/20.png)
+
+Validamos que el archivo se encuentre en el repositorio.
 ![16](images/gitsrv7.png)
