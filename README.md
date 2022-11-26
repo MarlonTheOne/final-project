@@ -34,7 +34,7 @@ docker pull gitlab/gitlab-ee
 ```
 ![6](images/5.png)
 ![7](images/6.png)
-
+<br><br>
 Dentro de la carpeta "docker-lb-web" ejecutar el docker compose
 ```bash
 docker compose up --build
