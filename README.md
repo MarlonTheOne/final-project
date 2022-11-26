@@ -48,9 +48,30 @@ docker network ls
 ```
 ![10](images/9.png)
 
-
+Se despliega el último contenedor del contenedor de GitLab.
+```bash
+sudo docker run --detach \
+  --hostname gitlab.example.com \
+  --publish 443:443 --publish 8080:80 --publish 21:22 \
+  --network docker-lb-web_default \
+  --name gitlab \
+  --restart always \
+  --volume $GITLAB_HOME/config:/etc/gitlab \
+  --volume $GITLAB_HOME/logs:/var/log/gitlab \
+  --volume $GITLAB_HOME/data:/var/opt/gitlab \
+  --shm-size 256m \
+  gitlab/gitlab-ee:latest
+```
 ![11](images/10.png)
+
+Validamos que todos los contenedores esten en el mismo segmento
+
+```bash
+docker inspect $(docker ps -q) | grep -i "ipaddress" | grep -vE "Name|Secondary"
+```
 ![12](images/11.png)
+
+
 ![13](images/12.png)
 ![14](images/13.png)
 ![15](images/14.png)
