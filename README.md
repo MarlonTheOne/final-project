@@ -35,6 +35,7 @@ docker pull gitlab/gitlab-ee
 ![6](images/5.png)
 ![7](images/6.png)
 <br><br>
+![1](images/1.png)
 Dentro de la carpeta "docker-lb-web" ejecutar el docker compose
 ```bash
 docker compose up --build
@@ -46,7 +47,7 @@ Revisamos que se haya creado el adaptador de red (Ese adaptador se va a adjuntar
 ```bash
 docker network ls
 ```
-![10](images/9.png)
+![26](images/ymlfile.png)
 
 Se despliega el último contenedor del contenedor de GitLab.
 ```bash
@@ -141,7 +142,7 @@ git push
 
 Validamos que el archivo se encuentre en el repositorio.
 <br><br>
-![16](images/gitsrv7.png)
+![23](images/gitsrv7.png)
 
-![17](images/LB1.png)
-![17](images/LB2.png)
+![24](images/LB1.png)
+![25](images/LB2.png)
